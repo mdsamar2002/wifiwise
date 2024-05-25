@@ -1,0 +1,68 @@
+.main_field{
+    display: flex;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+.left_field{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width:35%;
+    height:475px;
+}
+.left_field h1{
+    color: white;
+    font-size:48px;
+    margin:50px 140px 0px 100px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.left_field p{
+    color: white;
+    font-size:20px;
+    margin:5px 70px 0px 100px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.right_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f5ff;
+    width: 65%;
+    height:475px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin-bottom:25px;
+    padding-left: 15px;
+    border-radius:10px;
+    border-style: none;
+    border:2px solid black;
+}
+textarea{
+    width: 300px;
+    height: 120px;
+    border:2px solid black;
+    border-radius:8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+textarea:hover{
+    border: 3px solid rgba(0, 0, 255, 0.434);
+}
+input:hover{
+   border: 3px solid rgba(0, 0, 255, 0.434);
+}
+input[type="button"]{
+    background-color: #a0a2a4;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.right_body input[type="button"]:hover{
+    font-size: 20px;
+}

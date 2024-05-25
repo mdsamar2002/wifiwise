@@ -1,0 +1,351 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color:blue;
+    height: 75px;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+}
+.navbar a{
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+
+}
+.navbar a:hover{
+    color:beige;
+    font-size: 24px;
+}
+#login img{
+  border-radius:50%; 
+  object-fit: cover;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#login img:hover{
+    transform: scale(1.5,1.5);
+}
+.title {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+header h1{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 75px;
+    padding-left: 20px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.381);
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    margin:25px;
+}
+.home h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: auto;
+    width: 75%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 25px;
+    font-weight:900;
+}
+.home h1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 95%;
+    height: auto;
+    border-radius:25px;
+    margin: 25px 30px;
+}
+.true5G{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin: 50px;
+}
+.adv{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.381) ;
+    padding-right:20px;
+    margin-right: 0;
+}
+.adv img{
+    margin-bottom: 20px;
+}
+.checkbalance{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   background-color: rgba(0, 4, 255, 0.1);
+   margin: auto 135px;
+   border-radius: 20px;
+}
+.checkbalance img{
+    margin: 10px auto;
+    border-radius:20px;
+}
+.checkbalance strong{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.checkbalance input{
+    display: flex;
+    width:250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:rgba(0, 0, 255, 0.283);
+    margin: 35px 35px;
+    border: 2px solid black;
+    padding-left:25px;
+}
+#img_advertisementHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    font-size:50px;
+}
+.main_img_adv{
+    display: flex;
+    flex-direction: row;
+    margin:50px 100px;
+    justify-content: space-between;
+}
+#adv2{
+    display: flex;
+    flex-direction: row;
+    margin-top:15px;
+    justify-content: space-between;
+    border-top:1px solid rgba(128, 128, 128, 0.381);
+    padding-top: 10px;
+}
+#adv2_2{
+    width:284px; 
+    height:284px;
+}
+.left_imng_adv{
+    border-right: 1px solid rgba(128, 128, 128, 0.381);
+    padding-right: 20px;
+}
+.prepaid_main{
+    background-color: #a0a2a4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+.prepaid{
+    border: 1px solid rgba(128, 128, 128, 0.381);
+    margin: 25px 50px;
+    display: flex;
+    flex-direction:row;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 255, 0.53);
+}
+.prepaid_adv{
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    width: 35%;
+}
+
+.prepaid_adv h2{
+    margin-bottom: 20px;
+}
+.prepaid_form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.prepaid_form input[type="text"],.prepaid_form input[type="tel"],.prepaid_form select{
+    border-style: none;
+    display:block;
+    width: 300px;
+    height:25px;
+    margin: 25px;
+    padding-left:25px;
+    border-radius: 15px;
+}
+.prepaid_form input[type="text"],.prepaid_form input[type="tel"],.prepaid_form select,.prepaid_form select :hover{
+    border: 3px solid rgba(78, 78, 184, 0.226);
+}
+.prepaid_form span{
+    margin-left: 22px;
+}
+.prepaid_form input[type="button"]{
+    display: block;
+    margin: 25px auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    font-size:15px;
+    font-weight:900;
+    border: 3px solid black;
+}
+.prepaid_form input[type="button"]:hover{
+    font-size: 25px;
+}
+.scanner{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.scanner img{
+    height: 250px;
+    width: 250px;
+}
+.plans{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #e7ebf8;
+}
+.plans_head{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.plans_head h2{
+    margin-bottom: 20px;
+    font-size:50px;
+}
+.plans_head button{
+    margin-top: 20px;
+    width:150px;
+    height:30px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    font-size:20px;
+    border: 2px solid black;
+}
+.plans_deatilscont{
+    display: flex;
+    flex-direction: row;
+}
+.plan_details{
+    background-color: white;
+    padding:30px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.plansdeatils_child1 strong{
+    font-size: 30px;
+    font-weight: 900;
+}
+.plansdeatils_child1{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.381);
+}
+.plansdeatils_child2 p{
+    font-size:15px;
+    font-weight: 100;
+    margin:10px 5px;
+}
+.plansdeatils_child2 button{
+    width:275px;
+    height:45px;
+    border-radius: 25px;
+    background-color: blue;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.plansdeatils_child2 a{
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    font-weight:900;
+}
+.plansdeatils_child2 a:hover{
+    font-size:25px;
+}
+.faq{
+   padding:40px;
+   border-bottom:2px solid rgba(128, 128, 128, 0.381);
+}
+.faq_head{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight: 900;
+    font-family:cursive;
+    margin-bottom: 25px;
+}
+.faq_body details{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+.faq_body details summary{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:15px;
+}
+.faq_body details p,.faq_body details ul{
+    padding: 20px;
+    font-family:cursive;
+}
+.connectwithUS{
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+}
+.connect{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-right: 2px solid gray;
+}
+.connect_head{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.connect_body a{
+    margin:10px;
+}
+.contact{
+    margin-left: 50px;
+    padding-top: 25px;
+}
+footer{
+    border-top: 1px solid gray;
+    padding: 15px;
+    font-weight: 300;
+    font-size: small;
+    background-color: #e0e0e0;
+}
+
